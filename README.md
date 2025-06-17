@@ -65,11 +65,11 @@ JWT_SECRET=your_secret
 ```bash
 # Backend
 cd backend
-npm run dev
+node index.js
 
 # Frontend
 cd ../frontend
-npm start
+npm run dev
 ```
 ### Access the app at: http://localhost:3000
 
