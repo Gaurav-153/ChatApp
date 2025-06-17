@@ -1,44 +1,56 @@
-# MERN Real-Time Chat App 💬
+<h1 align="center">💬 MERN Real-Time Chat App</h1>
 
-A real-time chat application built with the **MERN stack** (MongoDB, Express, React, Node.js) and **Socket.IO** for instant messaging. Users can register, log in, and chat in real time.
-
----
-
-## 🔧 Tech Stack
-
-- **Frontend**: React, Axios, Context API, Socket.IO Client  
-- **Backend**: Node.js, Express, MongoDB, Socket.IO  
-- **Auth**: JWT, Bcrypt  
-- **Database**: MongoDB + Mongoose
+<p align="center">
+  A full-stack real-time chat application built using the <strong>MERN Stack</strong> (MongoDB, Express, React, Node.js) and <strong>Socket.IO</strong> for seamless live messaging.
+</p>
 
 ---
 
-## 🚀 Features
+## 🛠️ Tech Stack
 
-- Real-time messaging with Socket.IO  
-- JWT-based authentication  
-- Chat history stored in MongoDB  
-- Online/offline status  
-- Responsive React UI
+| Layer       | Technology                     |
+|-------------|--------------------------------|
+| **Frontend**| React, Axios, Context API, Socket.IO Client |
+| **Backend** | Node.js, Express, Socket.IO    |
+| **Database**| MongoDB + Mongoose             |
+| **Auth**    | JWT, Bcrypt                    |
 
 ---
 
-## ▶️ Getting Started
+## ✨ Features
 
-### Prerequisites
-- Node.js, MongoDB, Git
+✅ Real-time messaging using Socket.IO  
+✅ User authentication with JWT  
+✅ Chat history saved in MongoDB  
+✅ Online/offline user indicators  
+✅ Clean & responsive React UI  
 
-### Installation
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- Git
+
+---
+
+### 📥 Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/mern-chat-app.git
 cd mern-chat-app
 
 # Backend setup
+```bash
 cd backend
 npm install
-
+```
 # Frontend setup
+```bash
 cd ../frontend
 npm install
 ```
