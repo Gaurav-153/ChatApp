@@ -43,7 +43,7 @@
 # Clone the repository
 git clone https://github.com/yourusername/mern-chat-app.git
 cd mern-chat-app
-
+```
 # Backend setup
 ```bash
 cd backend
